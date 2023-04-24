@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4B8F3229F67777008BC422 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B8F3129F67777008BC422 /* HabitViewModel.swift */; };
+		7D4B8F3429F678B2008BC422 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B8F3329F678B2008BC422 /* AddHabitView.swift */; };
 		7DDD433C29F11B68009D92CC /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD433B29F11B68009D92CC /* HabitTrackerApp.swift */; };
 		7DDD433E29F11B68009D92CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD433D29F11B68009D92CC /* ContentView.swift */; };
 		7DDD434029F11B69009D92CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD433F29F11B69009D92CC /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4B8F3129F67777008BC422 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		7D4B8F3329F678B2008BC422 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
 		7DDD433829F11B68009D92CC /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDD433B29F11B68009D92CC /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		7DDD433D29F11B68009D92CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				7DDD435029F11CC9009D92CC /* Home.swift */,
+				7D4B8F3329F678B2008BC422 /* AddHabitView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		7DDD434F29F11CBE009D92CC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B8F3129F67777008BC422 /* HabitViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			files = (
 				7DDD434529F11B69009D92CC /* Persistence.swift in Sources */,
 				7DDD434829F11B69009D92CC /* HabitTracker.xcdatamodeld in Sources */,
+				7D4B8F3429F678B2008BC422 /* AddHabitView.swift in Sources */,
 				7DDD435129F11CC9009D92CC /* Home.swift in Sources */,
+				7D4B8F3229F67777008BC422 /* HabitViewModel.swift in Sources */,
 				7DDD433E29F11B68009D92CC /* ContentView.swift in Sources */,
 				7DDD433C29F11B68009D92CC /* HabitTrackerApp.swift in Sources */,
 			);
